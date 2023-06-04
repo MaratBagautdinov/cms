@@ -1,0 +1,16 @@
+$logoS: 40px
+$paddingHeader: 5%
+.header
+    display: grid
+    grid-template-columns: $logoS auto 100px
+    align-items: center
+    width: calc(100% - $paddingHeader*2)
+    padding: .5rem $paddingHeader
+    img
+        width: $logoS
+        height: $logoS
+    nav
+        display: flex
+        flex-direction: row
+        gap: 1rem
+        padding: 0 2rem
